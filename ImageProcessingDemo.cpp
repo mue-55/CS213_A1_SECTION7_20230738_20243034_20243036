@@ -4,6 +4,7 @@
 using namespace std;
 #include "Image_Class.h"
 
+
 int main() {
     string filename;
     cout << "Pls enter colored image name to turn to gray scale: ";

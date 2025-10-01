@@ -100,7 +100,8 @@ void applyBlackWhite(Image &image) {
     cout << "Black & White filter applied successfully!\n";
 }
 
-// فلتر 3: Invert Colors (MOZN)
+//  Invert Colors (MOZN)
+
 void applyInvert(Image &image) {
     for (int x = 0; x < image.width; x++) {
         for (int y = 0; y < image.height; y++) {
@@ -171,8 +172,8 @@ void applyFlip(Image &image) {
     image = flippedImage;
 }
 
-// فلتر 6: Rotate Image (MOZN)
-void applyRotate(Image &image) {
+// Rotate Image (MOZN)
+void applyRotate(Image &image){
     int angle;
     cout << "Rotate Options: 90 / 180 / 270\nEnter angle: ";
     cin >> angle;
@@ -189,6 +190,7 @@ void applyRotate(Image &image) {
         image = rotated;
         cout << "Rotated 90 degrees!\n";
     }
+
     else if (angle == 180) {
         Image rotated(image.width, image.height);
         for (int x = 0; x < image.width; x++) {

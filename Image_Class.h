@@ -10,6 +10,7 @@
  */
 
 
+
 // stb_image header definitions
 #ifndef _IMAGE_CLASS_H
 #define _IMAGE_CLASS_H
