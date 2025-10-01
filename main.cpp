@@ -65,7 +65,7 @@ bool askToSave() {
 
 // Filters :
 
-// فلتر 1: Grayscale (IBRAHIM)
+//  1: Grayscale (IBRAHIM)
 void applyGrayscale(Image &image) {
     for (int x = 0; x < image.width; x++) {
         for (int y = 0; y < image.height; y++) {
