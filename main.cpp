@@ -141,7 +141,7 @@ void applyMerge(Image &image) {
 // فلتر 5: Flip Image (MAAB) - UPDATED
 void applyFlip(Image &image) {
     char direction;
-    cout << "Flip (H)orizontal or (V)ertical? ";
+    cout << "If you want to Flip Horizontal Press ( H ) or ( V ) If you want Vertical? ";
     cin >> direction;
 
     Image flippedImage(image.width, image.height);
