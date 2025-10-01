@@ -82,7 +82,9 @@ void applyGrayscale(Image &image) {
     cout << "Grayscale filter applied successfully!\n";
 }
 
+
 //  Black & White (MAAB) - UPDATED
+
 void applyBlackWhite(Image &image) {
     for (int i = 0; i < image.width; i++) {
         for (int j = 0; j < image.height; j++) {
@@ -142,6 +144,7 @@ void applyMerge(Image &image) {
 //  : Flip Image (MAAB) - UPDATED
 void applyFlip(Image &image) {
     char direction;
+
     cout << "If you want to Flip Horizontal Press ( H ) or ( V ) If you want Vertical? ";
     cin >> direction;
 
@@ -156,6 +159,7 @@ void applyFlip(Image &image) {
             }
         }
         cout << "Image flipped horizontally!\n";
+
     } else if (direction == 'v' || direction == 'V') {
         for (int i = 0; i < image.width; i++) {
             for (int j = 0; j < image.height; j++) {
