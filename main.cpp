@@ -82,7 +82,7 @@ void applyGrayscale(Image &image) {
     cout << "Grayscale filter applied successfully!\n";
 }
 
-// فلتر 2: Black & White (MAAB) - UPDATED
+//  Black & White (MAAB) - UPDATED
 void applyBlackWhite(Image &image) {
     for (int i = 0; i < image.width; i++) {
         for (int j = 0; j < image.height; j++) {
@@ -112,7 +112,7 @@ void applyInvert(Image &image) {
     cout << "Invert filter applied successfully!\n";
 }
 
-// فلتر 4: Merge Images (IBRAHIM)
+//  Merge Images (IBRAHIM)
 void applyMerge(Image &image) {
     string secondFile;
     cout << "Enter second image filename: ";
@@ -138,7 +138,7 @@ void applyMerge(Image &image) {
     cout << "Merge filter applied successfully!\n";
 }
 
-// فلتر 5: Flip Image (MAAB) - UPDATED
+//  : Flip Image (MAAB) - UPDATED
 void applyFlip(Image &image) {
     char direction;
     cout << "If you want to Flip Horizontal Press ( H ) or ( V ) If you want Vertical? ";
